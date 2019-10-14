@@ -1,4 +1,4 @@
-# Tellysis -- Software Suite for TELL-Seq Linked Reads  
+# Tellysis - Software Suite for TELL-Seq Linked Reads  
 
 ## Overview
 
