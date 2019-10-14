@@ -35,9 +35,14 @@ where `<token>` is a string token emailed to you when you signed up for Tellysis
 
 ## Dependencies
 
-Tellysis pipelines are delivered as container images. It runs in the Docker environment. There is no additional sofware dependencies.
+Tellysis pipelines are delivered as container images. It runs in the Docker environment. There is no additional sofware dependencies needed on users' system.
 
 ## System Requirements
+
+Tellysis pipelines run on Linux/Unix systems with following minimum requirements:
+
+* 160GB RAM
+* 1TB free disk space
 
 <!---[Tell-Read v0.9.0](https://github.com/universalsequencing/tellysis/releases/download/0.9.0/tellread.tar.gz)--->
 
