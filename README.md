@@ -24,7 +24,9 @@ Tell-Link is the _de novo_ assembly pipeline for TELL-Seq linked reads.  It take
 
 To download Tellysis pipelines, follow this step:
 
-`download_tellysis $token $file`
+'''
+download_tellysis $token $file
+'''
 
 [Tell-Read v0.9.0](https://github.com/universalsequencing/tellysis/releases/download/0.9.0/tellread.tar.gz)
 
