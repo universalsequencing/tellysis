@@ -1,5 +1,5 @@
 # Tellysis
 Data analysis for TELL-Seq linked reads
 
-doenload Tell-Read v0.9.0 
-https://github.com/universalsequencing/tellysis/releases/download/0.9.0/tellread.tar.gz
+doenload Tell-Read <a href="https://github.com/universalsequencing/tellysis/releases/download/0.9.0/tellread.tar.gz">v0.9.0</a>
+
