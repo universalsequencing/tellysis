@@ -39,7 +39,7 @@ Tellysis pipelines are delivered as container images. It runs in the Docker envi
 
 ## System Requirements
 
-Tellysis pipelines run on Linux/Unix systems with following minimum requirements:
+In general, Tellysis pipelines run on Linux/Unix systems with following minimum requirements:
 
 * 160GB RAM
 * 1TB free disk space
