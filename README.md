@@ -29,5 +29,9 @@ download_tellysis $token $file
 ```
 where `$token` is a string token emailed to you when you signed up for Tellysis software downloads. `$file` is the distribution package name for the pipelines. For Tell-Read, this is `tellread.tar.gz`; for Tell-Sort, it's `tellsort.tar.gz` and for Tell-Link, it's `tellink.tar.gz`.
 
+## Setup
+
+
+## System Requirements
 [Tell-Read v0.9.0](https://github.com/universalsequencing/tellysis/releases/download/0.9.0/tellread.tar.gz)
 
