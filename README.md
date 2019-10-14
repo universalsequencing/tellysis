@@ -29,9 +29,9 @@ Save a copy of shell script `script/download_tellysis` on your local system.
 To download distribution packages for Tellysis pipelines, follow this step:
 
 ```
-download_tellysis $token $file
+download_tellysis <token> <file>
 ```
-where `$token` is a string token emailed to you when you signed up for Tellysis software downloads. `$file` is the distribution package file name for the pipelines. For Tell-Read, this is `tellread.tar.gz`; for Tell-Sort, it's `tellsort.tar.gz` and for Tell-Link, it's `tellink.tar.gz`.
+where `<token>` is a string token emailed to you when you signed up for Tellysis software downloads. `<file>` is the distribution package file name for the pipelines. For Tell-Read, this is `tellread.tar.gz`; for Tell-Sort, it's `tellsort.tar.gz` and for Tell-Link, it's `tellink.tar.gz`.
 
 ## Dependencies
 
