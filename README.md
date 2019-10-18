@@ -17,7 +17,7 @@ Tell-Sort pipeline processes TELL_Seq linked reads in output by Tell-Read pipeli
 
 ## Tell-Link
 
-Tell-Link is the _de novo_ assembly pipeline for TELL-Seq linked reads.  It takes the output reads in FASTQ format from Tell-Read pipeline as input. 
+Tell-Link is the _de novo_ assembly pipeline for TELL-Seq linked reads.  It takes the output reads in FASTQ format from Tell-Read pipeline as input. The pipeline builds barcode-aware assembly graph, assembles contigs and performs scaffolding. 
 
 
 ## Setup
