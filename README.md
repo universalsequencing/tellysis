@@ -7,15 +7,15 @@ Tellysis provides three data analysis pipelines to process Linked Read data gene
 
 ![Tellysis Pipelines](figures/tellysis_pipelines.png)
 
-## Tell-Read - Linked Reads
+## Tell-Read pipeline - Linked Reads
 
 Tell-Read pipeline takes output data produced by Illumina Sequencers using TELL-Seq Library Prep Kits. The pipeline performs quality control processing on barcodes, generates TELL-Seq linked reads and reports the performance on barcodes and DNA sequencing reads.
 
-## Tell-Sort - Phasing
+## Tell-Sort pipeline - Phasing
 
 Tell-Sort pipeline processes TELL_Seq linked reads in output by Tell-Read pipeline. The pipeline performs following activities: genome alignment, mark duplication, variant calling and phasing.
 
-## Tell-Link - _De Novo_ Assembly
+## Tell-Link pipeline - _De Novo_ Assembly
 
 Tell-Link is the _de novo_ assembly pipeline for TELL-Seq linked reads.  It takes the output reads in FASTQ format from Tell-Read pipeline as input. The pipeline builds barcode-aware assembly graph, assembles contigs and performs scaffolding. 
 
