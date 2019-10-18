@@ -22,7 +22,7 @@ Tell-Link is the _de novo_ assembly pipeline for TELL-Seq linked reads.  It take
 
 ## Setup
 
-Down or save a copy of shell script [script/download_tellysis](scripts/download_tellysis) on to your local system.
+Download or save a copy of shell script [script/download_tellysis](scripts/download_tellysis) on to your local system.
 
 ## Download 
 
