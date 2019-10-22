@@ -13,7 +13,7 @@ Tell-Read pipeline takes output data produced by Illumina Sequencers using TELL-
 
 ## Tell-Sort 
 
-Tell-Sort pipeline processes TELL_Seq linked reads in output by Tell-Read pipeline. The pipeline performs following activities: genome alignment, mark duplication, variant calling and phasing.
+Tell-Sort pipeline processes TELL_Seq linked reads in output by Tell-Read pipeline. The pipeline performs following activities: genome alignment, mark duplication, variant calling, phasing and SV.
 
 ## Tell-Link 
 
@@ -22,7 +22,7 @@ Tell-Link is the _de novo_ assembly pipeline for TELL-Seq linked reads.  It take
 
 ## Setup
 
-Download or save a copy of shell script [script/download_tellysis](scripts/download_tellysis) on to your local system. The script depends on `curl` and `jq`.
+Download or save a copy of shell script [script/download_tellysis](scripts/download_tellysis) on to your local Linux/Unix system. The script depends on `curl` and `jq`.
 
 ## Download 
 
