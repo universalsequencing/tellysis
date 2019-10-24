@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if [ $# -lt 2 ] ;then
     echo "Usage: $0 <token> <file>"
     exit 1
@@ -11,5 +10,5 @@ file=$2
 
 asset=`curl -sL -H "Authorization: token $token" -H "Accept: application/vnd.github.v3.raw" https://api.github.com/repos/universalsequencing/ustsw/releases | jq ".[0].assets | map(select(.name == \"$file\"))[0].id"`
 
-curl -L --header "Authorization: token $token" --header 'Accept: application/octet-stream' https://$token:@api.github.com/repos/universalsequencing/ustsw/releases/assets/$asset > $file 
+wget --auth-no-challenge --header='Accept:application/octet-stream' https://$token:@api.github.com/repos/universalsequencing/ustsw/releases/assets/$asset -O $file
 
